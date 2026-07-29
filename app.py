@@ -16,12 +16,3 @@ ads = st.number_input("Enter Advertisement Amount")
 if st.button("Predict"):
     result = model.predict([[ads]])
     st.success(f"Expected Sales : {result}")
-
-
-# data = dt.getData()
-# st.subheader("Training Data")
-# st.dataframe(data)
-
-
-# st.subheader("Advertisement vs Sales")
-# st.scatter_chart(data, x="Ads", y="Sales")
