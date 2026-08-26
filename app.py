@@ -4,7 +4,7 @@ import joblib
 
 model = joblib.load("LinearRegression.pkl")
 
-st.set_page_config(page_title="My App", layout="wide")
+st.set_page_config(page_title="My App", page_icon="logo.png", layout="wide")
 
 st.title("Sales Prediction Dashboard")
 st.logo("logo.png", size="large")
